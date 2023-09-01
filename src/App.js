@@ -5,12 +5,12 @@ import PrivacyPolicy from './PrivacyPolicy.js'
 
 function App(){
 	return(
-<div>
-	<Routes>
-		<Route exact path = "/" element={<Home/>}/>
-		<Route path = "/privacy-policy" element={<PrivacyPolicy/>}/>
-	</Routes>
-</div>
+	<div>
+		<Routes>
+			<Route exact path = "/" element={<Home/>}/>
+			<Route path = "/privacy-policy" element={<PrivacyPolicy/>}/>
+		</Routes>
+	</div>
 );
 }
 

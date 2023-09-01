@@ -9,16 +9,11 @@
   }
 }
 
-.header {
-  background-color: #282c34;
-  height: 10vh;
-  font-size: calc(10px + 2vmin);
-  color: green;
-}
 
 .body{
   background-color: black;
-  height: 90vh;
+  height: 100vh;
+  color: white;
 }
 
 

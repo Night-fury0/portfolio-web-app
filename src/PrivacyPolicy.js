@@ -1,10 +1,8 @@
-import './App.css'
 
 function PrivacyPolicy() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div>
+        This is Privacy Policy!
     </div>
   );
 }
