@@ -1,13 +1,15 @@
 import './App.css'
 import {NavBar} from './NavBar'
-import {Body} from './Body'
 
 function Home() {
   return (
     <div>
       <div className='backgroundImage'/>
       <NavBar/>
-      <Body/>
+      <div className='content'>
+        WELCOME <br/><br/>
+        <img className='resumeImage' src="tree.svg"/>
+      </div>
     </div>
   );
 }

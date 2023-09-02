@@ -7,20 +7,12 @@
 
 table{
     width: 100%;
-    opacity: 60%;
     font-size: calc(10px + 2vmin);
-    background-color: black;
+    background-color: (0,0,0,1.0);
     position: fixed;
     height: 10vh;
     vertical-align: middle;
     text-align: center;
     margin: auto;
     table-layout: fixed;
-}
-
-button{
-    background-color: #282c34;
-    border-color: #282c34;
-    font-size: calc(10px + 2vmin);
-    shape-outside: none;
 }
