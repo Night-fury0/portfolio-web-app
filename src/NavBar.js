@@ -7,17 +7,13 @@ import './NavBar.css'
 
 export function NavBar(){
 	return(
-    <nav>
-      <ul>
         <table>
-          <td><Link className="navlink" to="/">Home</Link></td>
-          <td><Link className="navlink" to="/resume">Resume</Link></td>
-          <td><Link className="navlink" to="/weather">Weather</Link></td>
-          <td><Link className="navlink" to="/gallery">Gallery</Link></td>
-          <td><Link className="navlink" to="/contact">Contact</Link></td>
+          {/* <td><button><Link className="navlink" to="/">Home</Link></button></td> */}
+          <td><Link className="navlink" to="/">HOME</Link></td>
+          <td><Link className="navlink" to="/resume">RESUME</Link></td>
+          <td><Link className="navlink" to="/gallery">GALLERY</Link></td>
+          <td><Link className="navlink" to="/contact">CONTACT</Link></td>
         </table>
-      </ul>
-    </nav>	
 	);
 }
 

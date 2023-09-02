@@ -5,6 +5,7 @@ import {Body} from './Body'
 function Home() {
   return (
     <div>
+      <div className='backgroundImage'/>
       <NavBar/>
       <Body/>
     </div>

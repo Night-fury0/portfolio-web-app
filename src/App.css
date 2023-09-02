@@ -9,15 +9,47 @@
   }
 }
 
+.backgroundImage{
+  position:fixed;
+  top: -100%;
+  left: -100%;
+  right:-100%;
+  bottom:-100%;
+  /* width: 100%; */
+  /* height: 100%; */
+  background-image: url("/public/bitmap.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: rotate-background 100s linear infinite;
+}
 
 .body{
+  margin:0;
+  height: 100%;
+  overflow:hidden;
   background-color: black;
-  height: 100vh;
   color: white;
 }
 
+.content{
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: rgba(0,0,0, 0.7);
+  text-align: center;
+  font-size: calc(10px + 2vmin);;
+}
 
-@keyframes App-logo-spin {
+.resumeImage{  
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes rotate-background {
   from {
     transform: rotate(0deg);
   }
