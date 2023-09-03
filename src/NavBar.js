@@ -11,6 +11,7 @@ export function NavBar(){
           {/* <td><button><Link className="navlink" to="/">Home</Link></button></td> */}
           <td><Link className="navlink" to="/">HOME</Link></td>
           <td><Link className="navlink" to="/resume">RESUME</Link></td>
+          <td><Link className="navlink" to="/projects">PROJECTS</Link></td>
           <td><Link className="navlink" to="/gallery">GALLERY</Link></td>
           <td><Link className="navlink" to="/contact">CONTACT</Link></td>
         </table>

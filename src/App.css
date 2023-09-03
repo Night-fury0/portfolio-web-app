@@ -41,7 +41,33 @@
   bottom: 10%;
   background-color: rgba(0,0,0, 0.7);
   text-align: center;
-  font-size: calc(10px + 2vmin);;
+  font-size: calc(10px + 2vmin);
+}
+
+.content_contact{
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: rgba(0,0,0, 0.7);
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+.content_gallery{
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: rgba(0,0,0, 0.7);
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  overflow: auto;
 }
 
 .resumeImage{  
@@ -56,4 +82,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.gallery {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 5px;
+  }
+}
+
+.gallery_item {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery__item:hover {
+  transform: scale(1.05);
+}
+
+.photoImage{  
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.projects{
+  max-width: 100%;
+  max-height: 100%;
+  font-size: calc(5px + 2vmin);
+  position: fixed;
+  height: 10vh;
+  vertical-align: middle;
+  text-align: left;
+  margin: auto;
+  table-layout: fixed;
+}
+
+.projectsIcon{
+  width: 20vw;
+  height: 20vh;
+
 }
