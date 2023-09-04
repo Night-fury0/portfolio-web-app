@@ -8,23 +8,25 @@ function Contact() {
       <div className='backgroundImage'/>
       <NavBar/>
       <div className="body">
-            <div className='content'>
+            <div className='content_projects'>
               PROJECTS<br/><br/>
               <table className='projects'>
                 <tr>
                   <td><img className="projectsIcon" src="tree.svg"/></td>
-                  <td>
-                    <div>
-                      <b>Portfolio Web App</b><br/>
-                      Developed using ReactJS, Javascript, HTML & CSS. Hosted using S3 and Route53.
-                    </div>
+                  <td className="projectsDesc">
+                  <b>Portfolio Web App</b><br/>
+                  <u>Tools</u>: ReactJS, AWS, Javascript, CSS, HTML, Inkscape. <br/>
+                  <u>Purpose</u>: To provide personal portfolio information.<br/>
+                  <u>Description:</u> Hosted as static web app using S3 and Route53.
                   </td>
                 </tr>
                 <tr>
                 <td><img className="projectsIcon" src="app_icon_square.svg"/></td>
-                  <td>
+                  <td className='projectsDesc'>
                   <b>Chennai Weather Android App</b><br/>
-                  Developed using Kotlin in Android Studio. Uses public data APIs to gather latest weather information of Chennai at one place. Published on Google Play Store.
+                  <u>Tools</u>: Kotlin, Android Studio, Inkscape. <br/>
+                  <u>Purpose</u>: To provide latest weather information of Chennai from various public sources under one roof. <br/>
+                  <u>Description:</u> Features include current weather & forecast, automatic weather stations & rain gauges, radar, satellite and lake level. Published on Google Play Store.
                   </td>
                 </tr>
               </table>

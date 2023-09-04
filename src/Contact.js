@@ -14,6 +14,7 @@ function Contact() {
                 <br/><br/>R M SRIRAM<br/><br/>
                 FULL STACK DEVELOPER<br/>
                 BIG DATA ENGINEER<br/><br/>
+                Chennai, India<br/><br/>
                 Email: sriram19990127@gmail.com<br/><br/>
                 Linkedin<br/>
                 Github<br/>
