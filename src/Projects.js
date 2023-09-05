@@ -9,15 +9,15 @@ function Contact() {
       <NavBar/>
       <div className="body">
             <div className='content_projects'>
-              PROJECTS<br/><br/>
+              <b>PROJECTS</b><br/><br/>
               <table className='projects'>
                 <tr>
                   <td><img className="projectsIcon" src="tree.svg"/></td>
                   <td className="projectsDesc">
-                  <b>Portfolio Web App</b><br/>
+                  <b>Portfolio Webpage</b><br/>
                   <u>Tools</u>: ReactJS, AWS, Javascript, CSS, HTML, Inkscape. <br/>
                   <u>Purpose</u>: To provide personal portfolio information.<br/>
-                  <u>Description:</u> Hosted as static web app using S3 and Route53.
+                  <u>Description:</u> Hosted as a static web application using AWS S3 and Route53.
                   </td>
                 </tr>
                 <tr>

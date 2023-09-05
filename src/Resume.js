@@ -8,7 +8,7 @@ function Resume() {
       <div className='backgroundImage'/>
       <NavBar/>
       <div className='content'>
-        RESUME <br/><br/>
+        <b>RESUME</b><br/><br/>
         <img className='resumeImage' src="resume-1.png"/>
 		  </div>
     </div>

@@ -43,7 +43,7 @@ function Gallery() {
       <NavBar/>
       <div className="body">
             <div className='content_gallery'>
-                GALLERY <br/><br/>
+                <b>GALLERY</b><br/><br/>
                 <div className="gallery">
                   {images.map((image, index) => (
                     <img

@@ -7,7 +7,7 @@ function Home() {
       <div className='backgroundImage'/>
       <NavBar/>
       <div className='content'>
-        WELCOME <br/><br/>
+        <b>WELCOME</b><br/><br/>
         <img className='resumeImage' src="tree.svg"/>
       </div>
     </div>
