@@ -14,13 +14,13 @@ function Contact() {
               PORTFOLIO WEB APP
               <table className='projects'>
                 <tr>
-                  <td><img className="projectsIcon" src="tree.svg"/></td>
+                  <td><img className="projects_icon" src="tree.svg"/></td>
                   <td className="projectsDesc">
                   <b>TOOLS</b>: ReactJS, AWS, Javascript, CSS, HTML, Inkscape. <br/>
                   <b>PURPOSE</b>: To serve as my personal portfolio website, showcasing my skills and projects.<br/>
                   <b>DESCRIPTION</b>: Developed as a static web application using ReactJS for the frontend. The website is hosted on AWS S3 and utilizes AWS Route53 domain management.<br/>
                   <b>AVAILABILITY</b>: You can visit the website at http://rmsriram.net<br/><br/>
-                  <a href=""><img src="github.png" className="contact_icons"></img></a> &nbsp;&nbsp;
+                  <a href="https://github.com/Night-fury0/portfolio-web-app"><img src="github.png" className="contact_icons"></img></a> &nbsp;&nbsp;
                   <a href="http://rmsriram.net"><img src="web.png" className="contact_icons"></img></a>
                   </td>
                 </tr>
@@ -29,7 +29,7 @@ function Contact() {
                 CHENNAI WEATHER ANDROID APP
                 <table className='projects'>
                 <tr>
-                <td><img className="projectsIcon" src="app_icon_square.svg"/></td>
+                <td><img className="projects_icon" src="app_icon_square.svg"/></td>
                   <td className='projectsDesc'>
                   <b>TOOLS</b>: Kotlin, Android Studio, Inkscape. <br/>
                   <b>PURPOSE</b>: To consolidate and present latest weather information for Chennai, sourced from various public providers, within a single, user-friendly interface.<br/>

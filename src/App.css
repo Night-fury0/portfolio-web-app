@@ -146,7 +146,7 @@
   padding-bottom: 10px;
 }
 
-.projectsIcon{
+.projects_icon{
   width: 20vw;
   height: 20vh;
 
@@ -173,4 +173,29 @@
 
 .roles{
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navlink{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navlink_active{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.top_nav_bar{
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  background-color: (0,0,0,1.0);
+  position: fixed;
+  height: 10vh;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  table-layout: fixed;
 }
