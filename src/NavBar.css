@@ -5,6 +5,13 @@
     text-align: center;
 }
 
+.navlink_active{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
 table{
     width: 100%;
     font-size: calc(10px + 2vmin);
