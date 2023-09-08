@@ -1,6 +1,5 @@
 import './App.css'
 import {NavBar} from './NavBar'
-// import {Body} from './Body'
 
 function Contact() {
   return (

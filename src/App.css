@@ -126,12 +126,11 @@
 
 .projects{
   font-family: 'Courier New', Courier, monospace;
-  padding-right: 10%;
   position: relative;
-  /* padding: 5px; */
   text-align:left;
   margin: auto;
   table-layout: auto;
+  padding-right: 3%;
 }
 
 .projectName{
@@ -147,10 +146,18 @@
 }
 
 .projects_icon{
-  width: 20vw;
-  height: 20vh;
+  width: 10vw;
+  height: 10vh;
 
 }
+
+.project_header{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: calc(5px + 2vmin);
+  text-align:left;
+}
+
 
 .contact_table{
   position: relative;
