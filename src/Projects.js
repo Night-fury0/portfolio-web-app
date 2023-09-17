@@ -59,7 +59,7 @@ function Projects() {
               header="PORTFOLIO WEBSITE" 
               tools="ReactJS, AWS, Javascript, CSS, HTML, Inkscape." 
               purpose="To serve as my personal portfolio website, showcasing my skills and projects." 
-              description="Developed as a static web application using ReactJS for the frontend. The website is hosted on AWS S3 and utilizes AWS Route53 domain management." 
+              description="Developed as a static web application using ReactJS for the frontend. The website is hosted on AWS S3 using Route53 & Cloudfront." 
               availablity="You can visit the website at http://rmsriram.net" 
               project_icons=<ProjectIcons/>
               />
